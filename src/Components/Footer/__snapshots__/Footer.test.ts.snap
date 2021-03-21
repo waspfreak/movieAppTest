@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should match snapshot 1`] = `
+.c0 .footer {
+  font-family: 'Titillium Web',sans-serif;
+  overflow: hidden;
+  background: #2b2b2a;
+  font-size: 0.95rem;
+  color: #fff;
+  text-shadow: 0 0.1rem 0.1rem rgba(0,0,0,0.25);
+  padding-left: 20px;
+  padding-top: 36px;
+}
+
+.c0 .footer .link {
+  color: #fff;
+}
+
+.c1 {
+  width: 122px;
+  float: right;
+  margin: 0 1rem 0.5rem;
+  -webkit-filter: opacity(0.9) brightness(2);
+  filter: opacity(0.9) brightness(2);
+}
+
+@media screen and (max-width:500px) {
+  .c0 {
+    opacity: 0.9;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .c1 {
+    display: inline-block;
+    width: 90px;
+    margin: 0 10px;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="footer"
+    >
+      <a
+        class="link"
+        href="https://www.themoviedb.org/"
+        rel="noreferrer"
+      >
+        <img
+          alt="tmdb-logo"
+          class="c1"
+          src="tmdb_logo.svg"
+          target="_blank"
+        />
+      </a>
+      Crafted by
+       
+      <a
+        class="link"
+        href="https://github.com/waspfreak"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Juliana Leon
+      </a>
+       
+      with
+       
+      <a
+        class="link"
+        href="https://reactjs.org/"
+        rel="noreferrer"
+        target="_blank"
+      >
+         
+        React
+      </a>
+    </div>
+  </div>
+</div>
+`;

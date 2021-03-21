@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressBar should match snapshot 1`] = `
+.c0 {
+  background: #111;
+  border-radius: 50%;
+  padding: 2px;
+  display: inline-block;
+}
+
+.c1 {
+  display: block;
+  margin: 0px auto;
+  max-width: 100%;
+}
+
+.c2 {
+  fill: none;
+}
+
+.c3 {
+  fill: none;
+}
+
+.c4 {
+  font-family: 'Titillium Web',sans-serif;
+  font-size: 14px;
+  text-anchor: middle;
+  fill: white;
+  font-weight: bold;
+  color: white;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <svg
+      class="c1"
+      height="80"
+      width="80"
+    >
+      <circle
+        class="c2"
+        cx="40"
+        cy="40"
+        r="38"
+        stroke="#3c0a0adb"
+        stroke-width="4"
+      />
+      <circle
+        class="c3"
+        cx="40"
+        cy="40"
+        r="38"
+        stroke="#111"
+        stroke-dasharray="238.76104167282426"
+        stroke-dashoffset="107.44246875277092"
+        stroke-width="4"
+        style="transition: stroke-dashoffset 850ms ease-in-out;"
+      />
+      <text
+        class="c4"
+        x="40"
+        y="40"
+      >
+        55
+        %
+      </text>
+    </svg>
+  </div>
+</div>
+`;

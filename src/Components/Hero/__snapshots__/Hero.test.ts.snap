@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hero should match snapshot 1`] = `
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.c0 {
+  background-color: #111;
+}
+
+.c1 {
+  font-family: 'Titillium Web',sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-size: 1.8em;
+  padding-left: 20px;
+  padding-top: 16px;
+  padding-bottom: 26px;
+  font-weight: bold;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <h2
+      class="c1"
+    >
+      Popular Movies
+    </h2>
+    <div
+      class="c2"
+    >
+      loading...
+    </div>
+  </div>
+</div>
+`;

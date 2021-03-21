@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RatingsFilter should match snapshot 1`] = `
+.c0 {
+  font-family: 'Titillium Web',sans-serif;
+  width: 30%;
+  position: absolute;
+  left: 30%;
+  padding-left: 20px;
+}
+
+.c0 .star-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: left;
+  -webkit-filter: drop-shadow(0 3px 3px rgba(0,0,0,0.5));
+  filter: drop-shadow(0 3px 3px rgba(0,0,0,0.5));
+}
+
+.c0 .label {
+  color: white;
+  font-size: 16px;
+  padding-left: 8px;
+}
+
+.c0 .star-group {
+  font-size: 0;
+  direction: rtl;
+  margin-top: 0.55rem;
+}
+
+.c0 .star-group * {
+  font-size: 2rem;
+}
+
+.c0 .star-group > input {
+  display: none;
+}
+
+.c0 .star-group > input + label {
+  display: inline-block;
+  overflow: hidden;
+  text-indent: 9999px;
+  width: 1.65rem;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.c0 .star-group > input + label:before {
+  display: inline-block;
+  text-indent: -9999px;
+  content: '☆';
+  color: #111;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+
+.c0 .star-group > input:checked ~ label:before,
+.c0 .star-group > input + label:hover ~ label:before,
+.c0 .star-group > input + label:hover:before {
+  content: '★';
+  color: rgba(218,50,28,0.9);
+  text-shadow: 0 0 1px rgba(32,32,32,0.5);
+}
+
+.c0 .star-group > .star-empty + label {
+  text-indent: -9999px;
+  width: 0.25em;
+}
+
+.c0 .star-group > .star-empty + label:before {
+  width: 0.25em;
+}
+
+.c0 .star-group:hover > input + label:before {
+  content: '☆';
+  color: #111;
+  text-shadow: none;
+}
+
+.c0 .star-group:hover > input + label:hover ~ label:before,
+.c0 .star-group:hover > input + label:hover:before {
+  content: '★';
+  color: rgba(218,50,28,0.9);
+  text-shadow: 0 0 1px rgba(32,32,32,0.5);
+}
+
+@media screen and (max-width:748px) {
+  .c0 {
+    width: 100%;
+    position: relative;
+    left: initial;
+    padding-left: 0px;
+  }
+
+  .c0 .label {
+    padding-left: 0;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <label
+      class="label"
+    >
+      Filter movie ratings
+    </label>
+    <section
+      class="star-wrapper"
+    >
+      <span
+        class="star-group"
+      >
+        <input
+          id="rating-5"
+          name="rating"
+          type="radio"
+        />
+        <label
+          for="rating-5"
+        >
+          5
+        </label>
+        <input
+          id="rating-4"
+          name="rating"
+          type="radio"
+        />
+        <label
+          for="rating-4"
+        >
+          4
+        </label>
+        <input
+          id="rating-3"
+          name="rating"
+          type="radio"
+        />
+        <label
+          for="rating-3"
+        >
+          3
+        </label>
+        <input
+          id="rating-2"
+          name="rating"
+          type="radio"
+        />
+        <label
+          for="rating-2"
+        >
+          2
+        </label>
+        <input
+          id="rating-1"
+          name="rating"
+          type="radio"
+        />
+        <label
+          for="rating-1"
+        >
+          1
+        </label>
+        <input
+          class="star-empty"
+          id="default"
+          name="rating"
+          type="radio"
+        />
+        <label
+          for="default-state"
+        >
+          empty
+        </label>
+      </span>
+    </section>
+  </div>
+  <div />
+</div>
+`;

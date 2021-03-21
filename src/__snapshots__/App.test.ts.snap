@@ -1,0 +1,593 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should match snapshot 1`] = `
+.c5 {
+  width: 100%;
+  background: #777774;
+  padding: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  box-sizing: border-box;
+  color: rgba(239,235,231,0.9);
+}
+
+.c6 {
+  width: 30%;
+  height: 55px;
+  background: #111;
+  border: 1px solid white;
+  position: relative;
+  color: rgba(239,235,231,0.9);
+}
+
+.c6 .icon {
+  position: absolute;
+  left: 7px;
+  top: 9px;
+  width: 40px;
+  color: rgba(187,0,17,1);
+  z-index: 9000;
+}
+
+.c6 input {
+  font-size: 1.5rem;
+  position: absolute;
+  left: 0px;
+  margin: 8px 0;
+  padding: 0 0 0 60px;
+  border: 0;
+  width: 95%;
+  background: transparent;
+  height: 40px;
+  color: rgba(239,235,231,0.9);
+  box-sizing: border-box;
+}
+
+.c6 input:focus {
+  outline: none;
+}
+
+.c6 input::-webkit-input-placeholder {
+  color: rgba(239,235,231,0.19);
+}
+
+.c6 input::-moz-placeholder {
+  color: rgba(239,235,231,0.19);
+}
+
+.c6 input:-ms-input-placeholder {
+  color: rgba(239,235,231,0.19);
+}
+
+.c6 input::placeholder {
+  color: rgba(239,235,231,0.19);
+}
+
+.c9 {
+  font-family: 'Titillium Web',sans-serif;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+.c9 .title {
+  color: #fff;
+  display: block;
+  font-size: 1.8em;
+  padding-left: 20px;
+  padding-top: 16px;
+  padding-bottom: 26px;
+  font-weight: bold;
+}
+
+.c10 {
+  max-width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.c8 {
+  font-family: 'Titillium Web',sans-serif;
+  width: 30%;
+  position: absolute;
+  left: 30%;
+  padding-left: 20px;
+}
+
+.c8 .star-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: left;
+  -webkit-filter: drop-shadow(0 3px 3px rgba(0,0,0,0.5));
+  filter: drop-shadow(0 3px 3px rgba(0,0,0,0.5));
+}
+
+.c8 .label {
+  color: white;
+  font-size: 16px;
+  padding-left: 8px;
+}
+
+.c8 .star-group {
+  font-size: 0;
+  direction: rtl;
+  margin-top: 0.55rem;
+}
+
+.c8 .star-group * {
+  font-size: 2rem;
+}
+
+.c8 .star-group > input {
+  display: none;
+}
+
+.c8 .star-group > input + label {
+  display: inline-block;
+  overflow: hidden;
+  text-indent: 9999px;
+  width: 1.65rem;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.c8 .star-group > input + label:before {
+  display: inline-block;
+  text-indent: -9999px;
+  content: '☆';
+  color: #111;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+
+.c8 .star-group > input:checked ~ label:before,
+.c8 .star-group > input + label:hover ~ label:before,
+.c8 .star-group > input + label:hover:before {
+  content: '★';
+  color: rgba(218,50,28,0.9);
+  text-shadow: 0 0 1px rgba(32,32,32,0.5);
+}
+
+.c8 .star-group > .star-empty + label {
+  text-indent: -9999px;
+  width: 0.25em;
+}
+
+.c8 .star-group > .star-empty + label:before {
+  width: 0.25em;
+}
+
+.c8 .star-group:hover > input + label:before {
+  content: '☆';
+  color: #111;
+  text-shadow: none;
+}
+
+.c8 .star-group:hover > input + label:hover ~ label:before,
+.c8 .star-group:hover > input + label:hover:before {
+  content: '★';
+  color: rgba(218,50,28,0.9);
+  text-shadow: 0 0 1px rgba(32,32,32,0.5);
+}
+
+.c7 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c12 {
+  font-family: 'Titillium Web',sans-serif;
+  position: fixed;
+  -webkit-animation: PXgFp 1.5s linear infinite;
+  animation: PXgFp 1.5s linear infinite;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: red;
+}
+
+.c13 {
+  -webkit-animation: fvtopB 1.25s linear infinite;
+  animation: fvtopB 1.25s linear infinite;
+  height: 4rem;
+  width: 4rem;
+}
+
+.c14 .footer {
+  font-family: 'Titillium Web',sans-serif;
+  overflow: hidden;
+  background: #2b2b2a;
+  font-size: 0.95rem;
+  color: #fff;
+  text-shadow: 0 0.1rem 0.1rem rgba(0,0,0,0.25);
+  padding-left: 20px;
+  padding-top: 36px;
+}
+
+.c14 .footer .link {
+  color: #fff;
+}
+
+.c15 {
+  width: 122px;
+  float: right;
+  margin: 0 1rem 0.5rem;
+  -webkit-filter: opacity(0.9) brightness(2);
+  filter: opacity(0.9) brightness(2);
+}
+
+.c1 {
+  background-size: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1024' height='276.742' viewBox='0 0 1024 276.742'%3E%3Cpath d='M140.803 258.904c-15.404 2.705-31.079 3.516-47.294 5.676l-49.458-144.856v151.073c-15.404 1.621-29.457 3.783-44.051 5.945v-276.742h41.08l56.212 157.021v-157.021h43.511v258.904zm85.131-157.558c16.757 0 42.431-.811 57.835-.811v43.24c-19.189 0-41.619 0-57.835.811v64.322c25.405-1.621 50.809-3.785 76.482-4.596v41.617l-119.724 9.461v-255.39h119.724v43.241h-76.482v58.105zm237.284-58.104h-44.862v198.908c-14.594 0-29.188 0-43.239.539v-199.447h-44.862v-43.242h132.965l-.002 43.242zm70.266 55.132h59.187v43.24h-59.187v98.104h-42.433v-239.718h120.808v43.241h-78.375v55.133zm148.641 103.507c24.594.539 49.456 2.434 73.51 3.783v42.701c-38.646-2.434-77.293-4.863-116.75-5.676v-242.689h43.24v201.881zm109.994 49.457c13.783.812 28.377 1.623 42.43 3.242v-254.58h-42.43v251.338zm231.881-251.338l-54.863 131.615 54.863 145.127c-16.217-2.162-32.432-5.135-48.648-7.838l-31.078-79.994-31.617 73.51c-15.678-2.705-30.812-3.516-46.484-5.678l55.672-126.75-50.269-129.992h46.482l28.377 72.699 30.27-72.699h47.295z' fill='%23d81f26' /%3E%3C/svg%3E");
+}
+
+.c1 h1 {
+  visibility: hidden;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  background: #2b2b2a;
+  height: 50px;
+  top: 0;
+  width: 100%;
+  -webkit-box-pack: star;
+  -webkit-justify-content: flex-star;
+  -ms-flex-pack: star;
+  justify-content: flex-star;
+  padding: 0.5em 0;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.c2 {
+  background-color: #111;
+}
+
+.c3 {
+  font-family: 'Titillium Web',sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-size: 1.8em;
+  padding-left: 20px;
+  padding-top: 16px;
+  padding-bottom: 26px;
+  font-weight: bold;
+}
+
+@media screen and (max-width:748px) {
+  .c6 {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .c9 .title {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width:748px) {
+  .c8 {
+    width: 100%;
+    position: relative;
+    left: initial;
+    padding-left: 0px;
+  }
+
+  .c8 .label {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .c14 {
+    opacity: 0.9;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .c15 {
+    display: inline-block;
+    width: 90px;
+    margin: 0 10px;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .c0 {
+    background: #fff;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:1601px) {
+
+}
+
+@media screen and (max-width:1023px) {
+
+}
+
+<div>
+  <nav
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <h1>
+        App Movies
+      </h1>
+    </div>
+  </nav>
+  <div
+    class="c2"
+  >
+    <h2
+      class="c3"
+    >
+      Popular Movies
+    </h2>
+    <div
+      class="c4"
+    >
+      loading...
+    </div>
+  </div>
+  <div
+    class="c5"
+  >
+    <div
+      class="c6"
+    >
+      <svg
+        aria-hidden="true"
+        class="c7 icon"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M10 18a7.952 7.952 0 004.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0018 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z"
+        />
+      </svg>
+      <input
+        placeholder="search keywords..."
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      class="c8"
+    >
+      <label
+        class="label"
+      >
+        Filter movie ratings
+      </label>
+      <section
+        class="star-wrapper"
+      >
+        <span
+          class="star-group"
+        >
+          <input
+            id="rating-5"
+            name="rating"
+            type="radio"
+          />
+          <label
+            for="rating-5"
+          >
+            5
+          </label>
+          <input
+            id="rating-4"
+            name="rating"
+            type="radio"
+          />
+          <label
+            for="rating-4"
+          >
+            4
+          </label>
+          <input
+            id="rating-3"
+            name="rating"
+            type="radio"
+          />
+          <label
+            for="rating-3"
+          >
+            3
+          </label>
+          <input
+            id="rating-2"
+            name="rating"
+            type="radio"
+          />
+          <label
+            for="rating-2"
+          >
+            2
+          </label>
+          <input
+            id="rating-1"
+            name="rating"
+            type="radio"
+          />
+          <label
+            for="rating-1"
+          >
+            1
+          </label>
+          <input
+            class="star-empty"
+            id="default"
+            name="rating"
+            type="radio"
+          />
+          <label
+            for="default-state"
+          >
+            empty
+          </label>
+        </span>
+      </section>
+    </div>
+    <div />
+  </div>
+  <div
+    class="c9"
+  >
+    <h2
+      class="title"
+    >
+      Search Result
+    </h2>
+    <div
+      class="c10"
+    >
+      <div
+        class="c11"
+      >
+        <div
+          class="c12"
+        >
+          <svg
+            aria-hidden="true"
+            class="c7 c13"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z"
+              fill="currentColor"
+            />
+          </svg>
+          <h1>
+            Loading Results
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="c14"
+  >
+    <div
+      class="footer"
+    >
+      <a
+        class="link"
+        href="https://www.themoviedb.org/"
+        rel="noreferrer"
+      >
+        <img
+          alt="tmdb-logo"
+          class="c15"
+          src="tmdb_logo.svg"
+          target="_blank"
+        />
+      </a>
+      Crafted by
+       
+      <a
+        class="link"
+        href="https://github.com/waspfreak"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Juliana Leon
+      </a>
+       
+      with
+       
+      <a
+        class="link"
+        href="https://reactjs.org/"
+        rel="noreferrer"
+        target="_blank"
+      >
+         
+        React
+      </a>
+    </div>
+  </div>
+</div>
+`;
